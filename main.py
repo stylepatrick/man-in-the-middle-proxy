@@ -41,7 +41,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
     # Methode will proxy the POST requests
     # if the form is filled with the message top
-    # it will be replaced to flop and send to the server
+    # it will be replaced with flop and send to the server
     # Original received response from server is changed
     # that client will never now that top has changed to flop
     def do_POST(self):
